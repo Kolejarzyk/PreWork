@@ -1,4 +1,4 @@
-
+// Aby uruchomić kod wystarczy wpisać w konsoli 'npm install' a potem 'node tasks/task1.js init'
 //Główna funkcja która posiada pustą tablicę dat którą zapełniamy w pętli for, zwracamy funkcję ReadDates która wypisze wylosowane daty
 function ArrayOfRandomDates(start, end, amount)
 {
@@ -11,6 +11,7 @@ function ArrayOfRandomDates(start, end, amount)
 }
 /*Oczekiwany wynik zwrócony przez wywołanie funkcji
 ArrayOfRandomDates(new Date(2019,05,23), new Date(2019,06,04),3) - wywołanie funkcji
+Jeden z spodziewanych wyników
 <Poniedziałek,2019,7,1>
 <Sobota,2019,6,29>
 <Wtorek,2019,6,25>
@@ -31,7 +32,7 @@ function readDates(arrayOfDates)
   })
 }
 
-// funkcja do zamienia numer dnia na tekst
+// funkcja do zamiany numeru dnia na tekst
 function weekdayToString(weekday)
 {
     switch (weekday) {

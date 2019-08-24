@@ -1,4 +1,6 @@
+// Aby uruchomić kod wystarczy wpisać w konsoli 'npm install' a potem 'node tasks/task2.js init'
 const {performance} = require('perf_hooks');
+
  // Główna funkcja w której poprzez pętle for dodajemy do tablicy kolejne liczby ciągu poprzez wywołanie funkcji fib(i)
    function fibonacci(n)
     {      
@@ -22,6 +24,7 @@ const {performance} = require('perf_hooks');
  [0, 1, 1, 2]
 */
 
+// init zawiera mierzenia czasu wykonania funkcji fibonacci()
 module.exports.init = function ()
 {
   let time0 = performance.now();
